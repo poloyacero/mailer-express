@@ -7,7 +7,7 @@ const mailListNoLimit = [
 ];
 
 const mailListStouge = [
-  'akosipoloyacero@gmail.com'
+  'jens@stouge.dk'
 ];
 
 const nlsMailService = async (body) => {
