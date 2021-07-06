@@ -4,6 +4,7 @@ const stougeMailer = require('../config/stougeMailer');
 const mailListNoLimit = [
   'gb@nolimitsolution.dk',
   'js@nolimitsolution.dk',
+  'akosipoloyacero@gmail.com'
 ];
 
 const mailListStouge = [
@@ -29,6 +30,7 @@ const nlsMailService = async (body) => {
 
   const mailOptions = {
     from: `No Limit Solutions <${process.env.EMAIL_USERNAME}>`,
+    sender: body.email,
     to: mailListNoLimit,
     replyTo: body.email,
     subject: 'Client Enquiry',
@@ -61,6 +63,7 @@ const stougeMailService = async (body) => {
 
   const mailOptions = {
     from: `Stouge & Co. <${process.env.EMAIL_USERNAME}>`,
+    sender: body.email,
     to: mailListStouge,
     replyTo: body.email,
     subject: 'Client Enquiry',
