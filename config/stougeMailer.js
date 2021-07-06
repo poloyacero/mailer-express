@@ -7,7 +7,7 @@ const emailService = nodemailer.createTransport({
     requireTLS: process.env.EMAIL_REQUIRETLS,
     auth:
         {
-            user: process.env.EMAIL_STOUGE,
+            user: process.env.EMAIL_USERNAME,
             pass: process.env.EMAIL_PASSWORD
         }
 });
