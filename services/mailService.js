@@ -4,7 +4,7 @@ const stougeMailer = require('../config/stougeMailer');
 const mailListNoLimit = [
   'gb@nolimitsolution.dk',
   'js@nolimitsolution.dk',
-  'akosipoloyacero@gmail.com'
+  'contact@nolimitsolution.dk'
 ];
 
 const mailListStouge = [
