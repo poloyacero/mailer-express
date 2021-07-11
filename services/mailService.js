@@ -69,7 +69,7 @@ const stougeMailService = async (body) => {
     html: htmlMessage
   }
 
-  return await mailer.sendMail(mailOptions);
+  return await stougeMailer.sendMail(mailOptions);
 }
 
 module.exports = {
