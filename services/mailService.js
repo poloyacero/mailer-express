@@ -4,11 +4,13 @@ const stougeMailer = require('../config/stougeMailer');
 const mailListNoLimit = [
   'gb@nolimitsolution.dk',
   'js@nolimitsolution.dk',
-  'contact@nolimitsolution.dk'
+  'contact@nolimitsolution.dk',
+  'info@stouge.dk'
 ];
 
 const mailListStouge = [
-  'jens@stouge.dk'
+  'jens@stouge.dk',
+  'info@stouge.dk'
 ];
 
 const nlsMailService = async (body) => {
